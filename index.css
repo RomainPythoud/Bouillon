@@ -1,9 +1,9 @@
 /* sélection des li du menu horizontale */
 ul#menu_horizontal li{
   display : inline;
-  padding : 0 1em;
-  margin-left: 120px;/* espace les boutons entres eux */
-  text-align:center;
+  padding : 0 0.5em;
+  margin-left: 15%;/* espace les boutons entres eux */
+  text-align: center;
 
 }
 ul#menu_horizontal {
@@ -37,6 +37,7 @@ ul#menu_horizontal li:{
   color: red;
 
 }
+
 
 #bande_horizontale{
 padding: 10px;
