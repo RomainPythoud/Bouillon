@@ -1,8 +1,21 @@
+body{
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+
+h1{
+  font-family:cursive;
+  color:#00DD00	;
+  text-align:center;
+}
+
+
 /* sélection des li du menu horizontale */
 ul#menu_horizontal li{
   display : inline;
   padding : 0 0.5em;
-  margin-left: 15%;/* espace les boutons entres eux */
+  margin-left: 13.5%;/* espace les boutons entres eux */
   margin-top:5px;
   text-align: center;
 
@@ -40,7 +53,7 @@ ul#menu_horizontal li:{
   text-align: center;
   color: red;
 
-}
+
 
 img{
   margin-top:40px;
@@ -57,8 +70,5 @@ background-color: red;
 
 }
 
-h1{
-  font-family:cursive;
-  color:#00DD00	;
-  text-align:center;
+
 }
