@@ -22,3 +22,36 @@ body{
 <p align=right>
   <img src="http://gitedecoutarnoux.com/wp-content/uploads/recette-boeuf-bourguignon.jpg" alt="boeuf bourguignon" style="width:59.9%;height:59.9%">
 </p>
+
+
+
+<input class="form-control" type = "hidden" placeholder="Student Id" v-model="student.index">
+
+
+
+
+<script>
+    let data={
+      message: "Hello world"
+    };
+
+    new Vue({
+      el: '#root',
+      data: data
+    })
+</script>
+
+
+
+//fonction a utiliser avec vue dans javascript
+
+<div id="forwwm">
+  <select type="text" id="input2" v-model="selected">
+  <option disabled-value=""> Ecrire qqch </option>
+  <option> Entrée </option>
+  <option> Plat </option>
+  <option> Dessert </option>
+  </select>
+  <p> la valeur est: {{selected}} </p>
+</div>
+<script src="../index.js"></script>

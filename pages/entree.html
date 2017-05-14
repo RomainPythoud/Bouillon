@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>court-bouillon</title>
     <link rel="stylesheet" href="../index.css">
+    <script src="https://unpkg.com/vue"></script>
+
 
 
 
@@ -31,5 +33,16 @@
         <li><a href="dejeuner.html" class="boutons">Petit-déjeuner</a></li>
         <li><a href="nouvelle.html" class="boutons">Ajouter une recette</a></li>
     </ul>
+
+
+
+    <div id="root">
+      <input type="text" id="input" v-model="message">
+      <p> the value of the input is: {{message}} </p>
+   </div>
+     <script src="../index.js"></script>
+
+
+
 
   </body>

@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>court-bouillon</title>
     <link rel="stylesheet" href="../index.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="../index.js">
+    <script src="https://unpkg.com/vue"></script>
+
 
 
 
@@ -34,40 +39,22 @@
 
   </ul>
 
+  <div class="panel-heading">
+      <h1> <font style="font-size: 40px" color="black" face="verdana">Nouvelle recette</font></h1>
+  </div>
+
+  	<div class="container" id="recette">
 
 
-
-
-
-
-
-  <html>
-
-  <head>
-  	<meta charset="utf-8">
-  	<title>Vue</title>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" href="index.css"></link>
-  </head>
-
-  <body>
-
-
-  	<div class="container" id="students">
-
-      	<!-- add an student form -->
       	<div class="col-sm-6">
           	<div class="panel panel-default">
-                <div class="panel-heading">
-                  	<h1>Nouvelle recette</h1>
-              	</div>
+
 
 
                   	<div class="panel-body">
-                      	<input class="form-control" type = "hidden" placeholder="Student Id" v-model="student.index">
 
-                      	<p>Indiquer le style de plat</p>
-                      	<div class="choix">
+                      	<p><font style="font-size: 25px">Indiquer le style de plat</font></p>
+                      	<div id="choix">
                         	<select v-model="selected">
                           	<option disabled value="">Please select one</option>
                           	<option>Entrée</option>
@@ -75,27 +62,34 @@
                           	<option>Dessert</option>
                           	<option>Salade</option>
                         	</select>
+                          <p>la valeur est: {{selected}} </p>
+                          <script src="../index.js"></script>
 
                       	</div>
-                      	<p>Indiquer la difficulté</p>
-                      	<div class="difficulte">
-                        	<select v-model="selected">Indiquer la difficulté
-                        	<option disabled value="">Merci de choisir une difficulté</option>
-                        	<option>Débutant</option>
-                        	<option>Moyen</option>
-                        	<option>Avancé</option>
-                        	<option>Chef cuisto</option>
-                      	</select>
+
+
+
+                        <div id="form">
+                          <select v-model="selected">
+                          <option disabled-value=""> Ecrire qqch </option>
+                          <option> Débutant </option>
+                          <option> Moyen </option>
+                          <option> Avancé </option>
+                          <option> Chef cuisto </option>
+                          </select>
+                          <p> la valeur est: {{selected}} </p>
+                        </div>
+                        <script src="../index.js"></script>
+                      </div>
 
                       	<p></p>
 
-                      	<div class="form-group">
-                          	<textarea class="form-control" placeholder="Ingrédients" v-model="student.address"></textarea>
+                      	<div class="form-ingredient">
+                          	<textarea class="form-control" placeholder="Ingrédients " v-model="student.address" ></textarea>
                       	</div>
 
-                      	<p></p>
 
-                      	<div class="form-group">
+                      	<div class="form-recette">
                         	<textarea class="form-control" placeholder="Marche à suivre" v-model="student.address"></textarea>
 
                       	</div>
@@ -114,16 +108,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
   	<!-- JS -->
   	<script src="node_modules/vue/dist/vue.js"></script>
   	<script src="node_modules/vue-resource/dist/vue-resource.js"></script>
   	<script src="app.js"></script>
-  </body>
-
-  </html>
-
-
-
-
-
   </body>
