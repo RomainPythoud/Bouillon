@@ -22,3 +22,9 @@
       selected: 'input'
     }
   })
+
+
+  new Vue({
+    el:'form-ingredient',
+    data:data
+  })
