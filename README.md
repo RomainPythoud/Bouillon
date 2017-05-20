@@ -23,3 +23,10 @@ test 1 2 1 2
 
 ///////////
          https://vuejs.org/v2/guide/forms.html
+
+
+
+base de donnée avec couch db sapelle recettes
+
+
+regarder conponents vue

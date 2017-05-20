@@ -1,5 +1,5 @@
 
-    let data={
+  let data={
       message: "Hello world"
     };
 
@@ -12,19 +12,21 @@
   new Vue({
     el: '#choix',
     data: {
-      selected: 'input'
-    }
-  })
-
-  new Vue({
-    el:'#form',
-    data: {
-      selected: 'input'
+      selected: ''
     }
   })
 
 
   new Vue({
-    el:'form-ingredient',
-    data:data
+    el:'#ingredients'
+    data:{
+      message:''
+    }
   })
+
+  var app6 = new Vue({
+  el: '#app-6',
+  data: {
+    message: 'Hello Vue !'
+  }
+})
