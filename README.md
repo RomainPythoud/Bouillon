@@ -26,7 +26,15 @@ test 1 2 1 2
 
 
 
-base de donnée avec couch db sapelle recettes
+
+BUT : crée un site web mettant des recettes à disposition + possibilité d'en rajouter
+RESTE A FAIRE :
+1. affichage des recettes pour chaque partie => comprendre comment utiliser bootstrap + vue.js
+2. finir l'ajout des nouvelles recettes
+3. faire la présentation (matias)
+4. comprendre l'utilisation d'une base de donnée (romain) base de donnée avec couch db sapelle recettes
+essayer de finir pour le weekend du 27-28 ??
+
 
 
 regarder conponents vue
